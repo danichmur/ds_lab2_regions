@@ -1,0 +1,10 @@
+/Users/danichmur/MvcClientDSLab2/bin/Debug/netcoreapp2.0/MvcClientDSLab2.deps.json
+/Users/danichmur/MvcClientDSLab2/bin/Debug/netcoreapp2.0/MvcClientDSLab2.runtimeconfig.json
+/Users/danichmur/MvcClientDSLab2/bin/Debug/netcoreapp2.0/MvcClientDSLab2.runtimeconfig.dev.json
+/Users/danichmur/MvcClientDSLab2/bin/Debug/netcoreapp2.0/MvcClientDSLab2.dll
+/Users/danichmur/MvcClientDSLab2/bin/Debug/netcoreapp2.0/MvcClientDSLab2.pdb
+/Users/danichmur/MvcClientDSLab2/obj/Debug/netcoreapp2.0/MvcClientDSLab2.csproj.CoreCompileInputs.cache
+/Users/danichmur/MvcClientDSLab2/obj/Debug/netcoreapp2.0/MvcClientDSLab2.AssemblyInfoInputs.cache
+/Users/danichmur/MvcClientDSLab2/obj/Debug/netcoreapp2.0/MvcClientDSLab2.AssemblyInfo.cs
+/Users/danichmur/MvcClientDSLab2/obj/Debug/netcoreapp2.0/MvcClientDSLab2.dll
+/Users/danichmur/MvcClientDSLab2/obj/Debug/netcoreapp2.0/MvcClientDSLab2.pdb

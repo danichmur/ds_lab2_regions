@@ -1,0 +1,83 @@
+@model IEnumerable<MvcClientDSLab2.Models.Region>
+
+@{
+    ViewData["Title"] = "Info";
+}
+
+<h2>Info</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-controller="Regions" asp-action="Index">Regions</a>              
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+               <a asp-controller="Regions" asp-action="Info" asp-route-regionId="@item.Id">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </a>
+            </td>
+            <td>
+                @if(@ViewBag.regionId != null && @ViewBag.regionId != item.Id){continue;}
+                @if(item.Areas.Count != 0){
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Areas
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>    
+                        @foreach (var area in item.Areas) {
+                        <tr>
+                            <td>
+                                <a asp-controller="Regions" asp-action="Info" asp-route-areaId="@area.Id" asp-route-regionId="@item.Id">
+                                    @Html.DisplayFor(modelItem => area.Name)
+                                </a>
+                            </td>
+                            <td>
+                            @if(area.Localities.Count != 0){
+                                 @if(@ViewBag.areaId != null && @ViewBag.areaId != area.Id){continue;}
+                                 @if(@ViewBag.areaId == null) {continue;}
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                            Localities
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var locality in area.Localities)
+                                        { 
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => locality.Name)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => locality.Type)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => locality.Population) p
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            }
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

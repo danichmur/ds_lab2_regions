@@ -1,0 +1,10 @@
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/bin/Debug/netcoreapp2.0/Regions.WebApi.deps.json
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/bin/Debug/netcoreapp2.0/Regions.WebApi.runtimeconfig.json
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/bin/Debug/netcoreapp2.0/Regions.WebApi.runtimeconfig.dev.json
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/bin/Debug/netcoreapp2.0/Regions.WebApi.dll
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/bin/Debug/netcoreapp2.0/Regions.WebApi.pdb
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/obj/Debug/netcoreapp2.0/Regions.WebApi.csproj.CoreCompileInputs.cache
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/obj/Debug/netcoreapp2.0/Regions.WebApi.AssemblyInfoInputs.cache
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/obj/Debug/netcoreapp2.0/Regions.WebApi.AssemblyInfo.cs
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/obj/Debug/netcoreapp2.0/Regions.WebApi.dll
+/Users/danichmur/Desktop/sharp_ds2/Regions.WebApi/obj/Debug/netcoreapp2.0/Regions.WebApi.pdb
